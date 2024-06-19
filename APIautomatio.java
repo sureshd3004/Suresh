@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 
-public class APIautomatio  {	
+public class CloudtalkAPIautomation  {	
 
 	@Test
 	public void status() throws InterruptedException, IOException {
