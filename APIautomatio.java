@@ -23,7 +23,7 @@ public class APIautomatio  {
 			Request request = new Request.Builder()
 					.url("https://my.cloudtalk.io/api/contacts/index.json?page="+j+"&limit=1000")
 					.get()
-					.addHeader("Authorization", "Basic RlNSSTVIRVlRWEZOVjdRM1ZDTE9ESzopQlJaTVRqN2VtVVNweXNGRW44TFBsTjlxWWk1ZDFEd094STR1NkNyY3ZnWzI=")
+					.addHeader("Authorization", "Basic Auth Key neddeddddddddddddddddddd=")
 					.build();
 			okhttp3.Response response = client.newCall(request).execute();
 			String jsonResponse = response.body().string();
