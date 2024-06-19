@@ -23,7 +23,7 @@ public class APIautomati  {
 			Request request = new Request.Builder()
 					.url("https://www.zohoapis.com/books/v3/items?page="+j+"&per_page=200")
 					.get()
-					.addHeader("Authorization", "Zoho-oauthtoken 1000.598b1b5c094ae6c44acbefa4cf12db69.7395576f9d7c3927f8d2488196039f80")
+					.addHeader("Authorization", "Zoho-oauthtoken 1  replace your API key 39f80")
 					.build();
 			okhttp3.Response response = client.newCall(request).execute();
 			String jsonResponse = response.body().string();
